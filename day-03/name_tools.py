@@ -1,8 +1,13 @@
-name = input("Enter the name : ")
+name = input("Enter your full name: ")
 
-print(name.upper())
-print(name.lower())
-print(len(name))
-print(name[0])
-print(name[-1])
-print(name)
+parts = name.split()
+
+initials = ""
+for part in parts:
+    initials += part[0].upper()
+
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+print("Title Case:", name.title())
+print("Reversed:", name[::-1])
+print("Initials:", initials)
