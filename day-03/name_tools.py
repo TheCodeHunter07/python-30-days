@@ -1,13 +1,16 @@
+# Task: show a full name in upper, lower and title case, reversed, and as initials
+
+
 name = input("Enter your full name: ")
 
 parts = name.split()
 
-initials = ""
-for part in parts:
-    initials += part[0].upper()
 
-print("Uppercase:", name.upper())
-print("Lowercase:", name.lower())
-print("Title Case:", name.title())
-print("Reversed:", name[::-1])
-print("Initials:", initials)
+print(f"Uppercase: {name.upper()}")
+print(f"Lowercase: {name.lower()}")
+print(f"Title Case: {name.title()}")
+print(f"Reverse: {name[-1::-1]}")
+print(f"Initials: {parts[0][0] + " " + parts[1][0]}")
+
+
+

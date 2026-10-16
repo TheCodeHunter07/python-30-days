@@ -1,29 +1,33 @@
-print("SSSSSSSSSS")
-print("SS")
-print("SS")
-print("SS")
-print("SS")
-print("SSSSSSSSSS")
-print("        SS")
-print("        SS")
-print("        SS")
-print("        SS")
-print("SSSSSSSSSS")
-
-print("")
-print("")
-print("")
+#==============================================================================
+# Stretch: Print a small ASCII-art logo of your initials.
+#==============================================================================
 
 
+# ==========================================================
+# Task: Create an ASCII-art logo using the initials SL
+# Method 1: Multiple print() statements
+# ==========================================================
 
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LL")
-print("LLLLLLLLLLLLLLL")
+print(" *****         ***** ")
+print("*             *    ")
+print("*             *    ")
+print(" ****          **** ")
+print("     *             *")
+print("     *             *")
+print("*****          *****")
+
+
+
+# ==========================================================
+# Method 2: Using a multiline string
+# ==========================================================
+
+print("""
+ *****         *****
+*             *
+*             *
+ ****          ****
+     *             *
+     *             *
+*****          *****
+""")

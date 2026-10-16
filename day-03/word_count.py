@@ -1,9 +1,10 @@
-text = input("Enter a sentence: ")
+# Task: count the words and characters in a sentence
 
-words = text.split()
+sentence = input("Enter the sentence: ")
 
-word_count = len(words)
-character_count = len(text)
+words = sentence.split()
 
-print("Word count:", word_count)
-print("Character count:", character_count)
+
+print(f"Words count is: {len(words)}")
+
+print(f"characters count is: {len(sentence)}")
