@@ -1,91 +1,111 @@
-# Stage 1 — CLI Quiz Game
+# Python Quiz Game 🎯
 
-## About the Project
-
-The CLI Quiz Game is a command-line application built using Python. It asks users questions about Python fundamentals, checks their answers, and calculates their final score and percentage.
-
-The game provides feedback based on the user's performance and allows them to play multiple rounds.
+A simple, interactive command-line quiz game built with Python.
+Test your knowledge of Python fundamentals by answering questions
+and receiving your final score and percentage.
 
 ## Features
 
-- Contains 10 questions about Python fundamentals.
-- Checks answers without considering uppercase or lowercase differences.
-- Displays whether each answer is correct or incorrect.
-- Calculates the total score and percentage.
-- Provides feedback based on the final percentage.
-- Randomizes the question order in each round.
-- Allows users to play again without restarting the program.
-- Validates replay input and accepts `y` or `n`.
+- 10 questions covering Python fundamentals.
+- Case-insensitive answer checking.
+- Automatic score calculation.
+- Percentage calculation.
+- Performance-based feedback.
+- Option to play again.
+- Input validation for the replay prompt.
+
+## Topics Covered
+
+The quiz includes questions about:
+
+- Python functions
+- Data types
+- Loops
+- Input and output
+- Operators
+- Dictionaries
+- Conditional statements
+- Lists and list methods
 
 ## Technologies Used
 
 - Python 3
-- Python `random` module
+- Python Standard Library
 
 ## Project Structure
 
-```text
-stage1-quiz-game/
-├── quiz_game.py
-└── README.md
-```
+    stage1-quiz-game/
+    ├── quiz_game.py
+    └── README.md
 
 ## How to Run
 
-### Prerequisites
+### 1. Install Python
 
 Make sure Python 3 is installed on your system.
 
-### Steps
+Check your Python version:
 
-1. Open a terminal.
-2. Navigate to the `stage1-quiz-game` directory.
-3. Run the following command:
+    python --version
 
-```bash
-python quiz_game.py
-```
+### 2. Clone the Repository
 
-## Python Concepts Practiced
+Clone the repository using Git:
 
-- Variables and data types
-- Lists and dictionaries
-- `for` loops and `while` loops
-- Conditional statements (`if`, `elif`, `else`)
-- User input using `input()`
-- String methods such as `lower()`
-- Arithmetic operations
-- Score and percentage calculation
-- The `random` module and `random.shuffle()`
-- Loop control using `break`
-- Boolean variables
-- Input validation
+    git clone <your-repository-url>
+
+### 3. Navigate to the Project Folder
+
+    cd stage1-quiz-game
+
+### 4. Run the Game
+
+    python quiz_game.py
+
+## How to Play
+
+1. Run the Python program.
+2. Read each question displayed in the terminal.
+3. Enter your answer.
+4. Receive feedback for each answer.
+5. View your final score and percentage.
+6. Choose `y` to play again or `n` to exit.
+
+Answers are checked without considering capitalization.
 
 ## Scoring System
 
-The game calculates the final percentage using the following formula:
+Your score is based on the number of correct answers.
 
-```text
-Percentage = (Correct Answers / Total Questions) × 100
-```
+The program calculates your percentage using:
 
-Feedback is provided according to the final percentage:
+    Percentage = (Correct Answers / Total Questions) * 100
 
-- **80% or above:** Excellent work!
-- **50% to below 80%:** Good effort! Keep practising.
-- **Below 50%:** Keep learning and try again!
+Feedback is displayed according to your percentage:
 
-## Learning Outcomes
+- 80% or above: Excellent work!
+- 50% to below 80%: Good effort! Keep practising.
+- Below 50%: Keep learning and try again!
 
-Through this project, I practised Python fundamentals by building an interactive command-line application.
+## Learning Objectives
 
-The project helped me understand how to work with lists and dictionaries, use loops and conditional statements, accept and validate user input, calculate scores, randomize question order, and implement replay functionality.
+This project helped me practise:
 
-## Future Improvements
+- Python dictionaries
+- Variables and data types
+- For loops and while loops
+- Conditional statements
+- User input and output
+- String methods
+- Score tracking
+- Percentage calculations
+- Input validation
+- Basic program flow control
 
-- Add questions from multiple topics.
-- Display the correct answer when a user answers incorrectly.
-- Add a maximum number of attempts.
-- Store scores from previous rounds.
+## Author
 
----
+Sumit Sanjay Lokhande
+
+## License
+
+This project was created for learning and educational purposes.
