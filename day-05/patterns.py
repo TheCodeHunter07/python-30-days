@@ -1,36 +1,45 @@
-# Pattern 1: Pyramid
+# Day 5 — Stretch Assignment: patterns.py  — nested loops for a pyramid, an inverted pyramid and a number triangle.
 
-print("Pattern 1: Pyramid")
 
-for i in range(1, 6):
-    for j in range(5 - i):
+# According to Day 5 plan, this file should print three patterns:
+
+# A pyramid
+# An inverted pyramid
+# A number triangle
+
+# Task 1: Pyramid pattern
+
+for i in range(1, 5):
+
+    for j in range(1, 5 - i):
         print(" ", end="")
 
-    for k in range(2 * i - 1):
+    for k in range(1, 2 * i):
         print("*", end="")
 
     print()
 
 
-# Pattern 2: Inverted Pyramid
+print("\n")  # Space between patterns
 
-print("\nPattern 2: Inverted Pyramid")
+ # Task 2:Inverted Pyramid
 
-for i in range(1, 6):
-    for j in range(i - 1):
+for i in range(1, 5):
+
+    for j in range(1, i):
         print(" ", end="")
 
-    for k in range(9 - 2 * (i - 1)):
+    for k in range(1, 10 - 2 * i):
         print("*", end="")
 
     print()
 
+print("\n")  # Space between patterns
 
-# Pattern 3: Number Triangle
+  # Task 3: Number Triangle
 
-print("\nPattern 3: Number Triangle")
+for i in range(1, 5):
 
-for i in range(1, 6):
     for j in range(1, i + 1):
         print(j, end="")
 

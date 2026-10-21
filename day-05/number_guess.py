@@ -1,20 +1,40 @@
+
+# Task:  — guess a random number (import random) with too-high / too-low hints; count the attempts
+
+
 import random
 
-secret_number = random.randint(1, 100)
-attempts = 0
+random_number = random.randint(1, 100)
 
-print("Welcome to the Number Guessing Game!")
+attempt = 0
+total_attempts = 3
+guessed_correctly = False
 
-while True:
-    number = int(input("Guess a number between 1 and 100: "))
-    attempts += 1
+while attempt < total_attempts:
 
-    if number > secret_number:
+    number = int(input("Guess the number between 1 and 100: "))
+    attempt += 1
+
+    if number > random_number:
         print("Too high!")
 
-    elif number < secret_number:
+    elif number < random_number:
         print("Too low!")
 
     else:
-        print(f"Correct! You guessed the number in {attempts} attempts.")
+        guessed_correctly = True
+        print(f"Correct! You guessed the number in {attempt} attempts.")
         break
+
+if not guessed_correctly:
+    print(f"Game over! The correct number was {random_number}.")
+
+
+ 
+
+
+
+
+
+ 
+
