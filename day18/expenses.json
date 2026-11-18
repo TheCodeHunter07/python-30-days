@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "amount": 500,
+        "category": "Food",
+        "description": "Dinner",
+        "date": "2026-11-11"
+    },
+    {
+        "id": 2,
+        "amount": 200,
+        "category": "Travel",
+        "description": "Bus ticket",
+        "date": "2026-11-11"
+    },
+    {
+        "id": 3,
+        "amount": 25000,
+        "category": "Fees",
+        "description": "Tuition fees",
+        "date": "2026/11/11"
+    },
+    {
+        "id": 4,
+        "amount": 350,
+        "category": "Recharge",
+        "description": "Mobile Recharge",
+        "date": "2026-10-15"
+    }
+]
