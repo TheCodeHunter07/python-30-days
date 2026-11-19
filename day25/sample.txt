@@ -1,0 +1,5 @@
+Python is a programming language.
+Generators produce values one at a time.
+Python is useful for backend development.
+File handling is an important Python skill.
+We are learning real-world Python development.
