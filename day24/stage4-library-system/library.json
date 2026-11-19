@@ -1,0 +1,53 @@
+{
+    "books": [
+        {
+            "book_id": "B101",
+            "title": "Python Crash Course",
+            "author": "Eric Matthes",
+            "is_borrowed": false
+        },
+        {
+            "book_id": "B102",
+            "title": "Clean Code",
+            "author": "Robert C. Martin",
+            "is_borrowed": false
+        },
+        {
+            "book_id": "B103",
+            "title": "The Pragmatic Programmer",
+            "author": "Andrew Hunt",
+            "is_borrowed": true
+        },
+        {
+            "book_id": "B104",
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "is_borrowed": false
+        },
+        {
+            "book_id": "B105",
+            "title": "Rich Dad Poor Dad",
+            "author": "Robert Kiyosaki",
+            "is_borrowed": false
+        }
+    ],
+    "members": [
+        {
+            "member_id": "M101",
+            "name": "Rahul",
+            "borrowed_books": [
+                "B103"
+            ]
+        },
+        {
+            "member_id": "M102",
+            "name": "Priya",
+            "borrowed_books": []
+        },
+        {
+            "member_id": "M103",
+            "name": "Amit",
+            "borrowed_books": []
+        }
+    ]
+}
